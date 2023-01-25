@@ -1,3 +1,131 @@
+.page {
+
+
+    font-family: 'Inter';
+    background-color:#2A2C2F;
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
 .page__content {
  max-width: 1280px;
+ margin: 0 auto;
+}
+
+.logo {
+    width: 176px;
+    height: 52px;
+}   
+
+.header {
+display: flex;
+justify-content: space-between;
+margin: 28px 48px 0 48px;
+width: 1184px;
+
+
+}
+
+.header__menu {
+display: flex;
+gap: 18px;
+
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+list-style: none;
+
+}
+
+.header__menu-lang {
+    list-style: none;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__menu-lang:hover {
+text-decoration-line: underline;
+}
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.lead__title {
+width: 700px;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.lead__subtitle {
+    margin-top: 32px;
+    text-align: center;
+    width: 642px;
+  
+    font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+    color: #FFFFFF 
+}
+
+.lead__img {
+width: 984px;
+height: 615px; 
+background: url(./images/kalegin-michail.svg);
+
+}
+
+.intro {
+    width: 690px;
+    height: 429px;
+    margin: 92px auto 0 148px;
+    
+}   
+
+.intro__title {
+margin: 0 auto 0;    
+font-weight: 900;
+font-size: 54px;
+line-height: 58px;
+color: #FFFFFF;
+}
+
+.intro__text {
+margin: 40px auto 0 0;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+color: #FFFFFF;
+}
+
+.intro__list {
+   
+margin: 33px auto 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+font-weight: 700;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+}
+
+.intro__list-fact {
+list-style: none;
+}
+
+.photo-grid {
+    margin: 92px auto 0;
+    max-width: 1184px;
+}
+
+.photo-grid__item {
+gap: 16px;
 }

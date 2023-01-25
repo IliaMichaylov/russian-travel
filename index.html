@@ -4,27 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Путешествие по России</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="/index.css"/>
   </head>
     <body class="page">
      <div class="page__content">  
       <header class="header page__content">
-        <a href="#" alt="Лого" class="logo header__logo"></a>
+        <a href="#" class="logo header__logo"><img src="/images/__logo.png" class="header__logo-img" alt="Логотип Россия"></a>
         <nav>
             <ul class="header__menu">
-                <li>Ru</li>
-                <li>En</li>
+                <li><a href="#" class="header__menu-lang">Ru</a></li>
+                <li><a href="#" class="header__menu-lang">En</a></li>
             </ul>
         </nav>
       </div> 
       </header>
       <main class="">
         <div class="lead">
+            <h1 class="lead__title">Путешествия по России</h1>
+            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <div class="lead__img"></div>
+        </div>
+        <div class="intro">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
+          <ul class="intro__list">
+            <list class="intro__list-fact">Часовых поясов 11</list>
+            <list class="intro__list-fact">Объектов природного наследия ЮНЕСКО 12</list>
+            <list class="intro__list-fact">Объектов культурного наследия ЮНЕСКО 16</list>
+            <list class="intro__list-fact">Природных заповедников 105</list>
+            <list class="intro__list-fact">Аэропортов 241</list>
+          </ul>
+        </div>
+        <div class="photo-grid">
+          <img src="./images/__train.jpg" alt="Вагон поезда" class="photo-grid__item">
+          <img src="./images/__atharva-tulsi-472908-unsplash.jpg" alt="Горы облаков" class="photo-grid__item">
+          <img src="./images/__tuman.jpg" alt="Стог сена и волк" class="photo-grid__item">
+          <img src="./images/__sochi.jpg" alt="Лес туман" class="photo-grid__item">
+          <img src="./images/__arisa-chattasa-559627-unsplash.jpg" alt="Колесо на лед" class="photo-grid__item">
+          <img src="./images/__baikal.jpg" alt="Волны пляж" class="photo-grid__item">
+          <img src="./images/__elbrus.jpg" alt="Заснеженные горы" class="photo-grid__item">
+          <img src="./images/__stanislav-kondratiev-459423-unsplash.jpg" alt="бетонные ограждения" class="photo-grid__item">
+          <img src="./images/__kamchatka.jpg" alt="Горы в облаках" class="photo-grid__item">
+          <img src="./images/__kamchatka2.jpg" alt="Гора камчатка" class="photo-grid__item">
+          <img src="./images/__baikal2.jpg" alt="Горы байкала" class="photo-grid__item">
+          <img src="./images/__ergaki.jpg" alt="Долина с туманом" class="photo-grid__item">
 
         </div>
-        <div class="intro"></div>
-        <div class="photo-grid"></div>
-        <div class="places"></div> 
+        <div class="places">
+          <h2 class="places__title">Куршская коса</h2>
+          <p class="place__name-link">URL</p>
+          <a href="./images/__nikita-tikhomirov-1153188-unsplash.jpg" class="place__link">park-kosa.ru</a>
+          <img src="" alt="Залив">
+          <p class="place__text1">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p> 
+          <p class="place__text2">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>
+        </div> 
         <div class="cover"></div>
               
       </main>
