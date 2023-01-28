@@ -83,9 +83,9 @@ background: url(./images/kalegin-michail.svg);
 }
 
 .intro {
-    width: 690px;
-    height: 429px;
-    margin: 92px auto 0 148px;
+width: 690px;
+height: 429px;
+margin: 92px auto 0 148px;
     
 }   
 
@@ -106,7 +106,6 @@ color: #FFFFFF;
 }
 
 .intro__list {
-   
 margin: 33px auto 0;
 padding: 0;
 display: flex;
@@ -122,8 +121,8 @@ list-style: none;
 }
 
 .photo-grid {
-    margin: 92px auto 0;
-    max-width: 1184px;
+margin: 92px auto 0;
+max-width: 1184px;
 }
 
 .photo-grid__item {
@@ -131,63 +130,99 @@ gap: 16px;
 }
 
 .places {
-    margin: 92px auto 0;
-    width: 984px;
+margin: 92px auto 0;
+width: 984px;
 }
 
 .place {
-    display: grid;
-    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
-    grid-gap: 40px 40px;
+display: grid;
+grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
+grid-gap: 40px 40px;
 }
 
-
-
 .place__title {
-    width: 460px;
+width: 460px;
 font-weight: 900;
 font-size: 72px;
 line-height: 76px;
 color: #FFFFFF
-   
 }
 
 .place__link {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-
+display: flex;
+flex-direction: column;
+justify-content: end;
 }
 
 .place__name-link {
-    width: 456px;
-    font-weight: 400;
+width: 456px;
+font-weight: 400;
 font-size: 12px;
 line-height: 12px;
 color: #AAAAAA
 }
 
 .place__link-web {
-    width: 456px;
-    font-style: normal;
+width: 456px;
+font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
-
 }
 
 .place__text {
-    
-    margin: 0 auto 0;
-    
+display: flex;
+flex-direction: column;
+justify-content: flex-start; 
+row-gap: 26px;     
 }
 
 .place__paragraph {
-    width: 484px;
-    font-weight: 400;
+margin: 0 auto 0;
+width: 484px;
+font-weight: 400;
 font-size: 18px;
 line-height: 163%;
 color: #FFFFFF;
+}
+
+.cover {
+margin: 92px auto 0;
+max-width: 1184px;
+height: 740px;
+display: flex;
+flex-direction: column;
+background: url(./images/__dmitrii-vaccinium-22833-unsplash.jpg);
+}
+
+.cover__title {
+margin:245px 312px 343px ;
+max-width:560px;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.cover__subtitle {
+margin: 32px auto;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+z-index: 1
+;
+}
+
+.cover__overlay {
+width: 1184px;
+height: 740px;
+background: #2A2C2F;
+opacity: 0.3;
+z-index: 0;
+  
 }
