@@ -1,18 +1,20 @@
 .cover {
   margin: 92px auto 0 auto;
-    
-    
+  width: 1184px;
+  
   }
   
   @media (max-width:769px) {
     .cover {
       margin: 90px auto 0 auto;
+      max-width: 100%;
     }  
   }
   
   @media (max-width:321px) {
     .cover {
       margin: 66px auto 0 auto;
+      
     }  
   }
   

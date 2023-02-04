@@ -4,9 +4,9 @@
     line-height: 163%;
     color: #ffffff;
     width: 100%;
+    box-sizing: border-box;
   }
-  
-  
+   
   
   @media (max-width: 769px) {
     .place__paragraph {
@@ -16,7 +16,9 @@
   
   @media (max-width: 321px) {
     .place__paragraph {
-      margin: 32px auto 0 16px;
+      margin-top: 32px;
+      padding-left: 16px;
+      padding-right: 16px;
       row-gap: 25px;
     }
   }

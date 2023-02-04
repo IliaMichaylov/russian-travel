@@ -17,4 +17,5 @@ ___
 ## Figma ссылка на дизайн
  - https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-%2B-mobile?node-id=62863%3A870&t=HeYBIrUau1ZkUaD9-0
 
-## Ссылка на проект 
+## Ссылка на проект
+# https://iliamichaylov.github.io/russian-travel/ 
