@@ -7,20 +7,21 @@
     background-size: cover;
     background-repeat: no-repeat;
     max-height: 740px;
+    width: 100%;
 
   }
   
   @media (max-width: 1025px) {
     .cover__overlay {
       max-height: 640px;
-      max-width: 1024px;
+      
     }
   }
   
   @media (max-width: 769px) {
     .cover__overlay {
       min-height: 480px;
-      max-width: 768px;
+      
     }
   }
   
