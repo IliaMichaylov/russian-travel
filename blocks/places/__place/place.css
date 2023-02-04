@@ -1,4 +1,4 @@
-.places__place {
+.place {
     margin-top: 80px;
     display: grid;
     grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
