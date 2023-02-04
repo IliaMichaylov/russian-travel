@@ -1,11 +1,11 @@
-.place__link {
+.places__link {
     display: flex;
     flex-direction: column;
     justify-content: end;
   }
   
   @media (max-width: 321px) {
-    .place__link {
+    .places__link {
       max-width: 288px;
     }
   }

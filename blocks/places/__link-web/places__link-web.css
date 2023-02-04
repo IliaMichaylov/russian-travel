@@ -1,4 +1,4 @@
-.place__link-web {
+.places__link-web {
     margin: 12px auto 0 0;
     max-width: 456px;
     font-style: normal;
@@ -11,11 +11,11 @@
   }
   
   @media (max-width: 321px) {
-    .place__link-web {
+    .places__link-web {
       margin-left: 16px;
     }
   }
   
-  .place__link-web:hover {
+  .places__link-web:hover {
     opacity: 0.8;
   }

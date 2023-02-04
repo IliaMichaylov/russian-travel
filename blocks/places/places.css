@@ -8,6 +8,12 @@
       max-width: 928px;
     }
   }
+
+  @media (max-width: 769px) {
+    .places {
+      max-width: 720px;
+    }
+  }
   
   @media (max-width: 321px) {
     .places {

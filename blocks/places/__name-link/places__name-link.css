@@ -1,4 +1,4 @@
-.place__name-link {
+.places__name-link {
     max-width: 456px;
     font-weight: 400;
     font-size: 12px;
@@ -7,13 +7,13 @@
   }
   
   @media (max-width: 769px) {
-    .place__name-link {
+    .places__name-link {
       max-width: 352px;
     }
   }
   
   @media (max-width: 321px) {
-    .place__name-link {
+    .places__name-link {
       margin: 32px auto 0 16px;
       max-width: 288px;
       font-size: 12px;

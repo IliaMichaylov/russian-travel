@@ -1,4 +1,4 @@
-.place__text {
+.places__text {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -7,7 +7,7 @@
   }
   
   @media (max-width: 769px) {
-    .place__text {
+    .places__text {
       row-gap: 25px;
     }
   }
