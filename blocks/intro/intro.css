@@ -1,17 +1,32 @@
 .intro {
-    max-width: 690px;
-    margin: 92px auto 0 148px;
+    width: 100%;;
+    margin-top: 92px;
+    box-sizing: border-box;
+    padding-left: 148px;
+    padding-right: 442px;
   }
   
+  @media (max-width: 1025px) {
+    .intro {
+      margin-top: 88px;
+      padding-left: 48px;
+      padding-right: 286px;
+    }
+  }
+
+
+
   @media (max-width: 769px) {
     .intro {
-      margin: 88px auto 0 48px;
+      padding-left: 24px;
+      padding-right: 24px;
     }
   }
   
   @media (max-width: 321px) {
     .intro {
-      max-width: 288px;
-      margin: 64px 16px 0 16px;
+     margin-top: 64px;
+     padding-left: 16px;
+     padding-right: 16px;
     }  
   }

@@ -1,14 +1,25 @@
 .cover {
-  margin: 92px auto 0 auto;
- 
+  margin-top: 92px;
+  width: 100%;
+  padding-left: 48px; 
+  padding-right: 48px;
+ box-sizing: border-box;
   
   }
   
+  @media (max-width:1025px) {
+    .cover {
+      width: 100%;
+      padding-left: 0; 
+      padding-right: 0;
+    }  
+  }
+
   @media (max-width:769px) {
     .cover {
-      margin: 90px auto 0 auto;
-      max-width: 100%;
-    }  
+      margin-top: 90px;
+     
+     }  
   }
   
   @media (max-width:321px) {
