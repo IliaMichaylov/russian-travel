@@ -1,0 +1,8 @@
+.header__menu-lang {
+    list-style: none;
+    color: #ffffff;
+    text-decoration: none;
+  }
+.header__menu-lang:hover {
+    text-decoration-line: underline;
+  }

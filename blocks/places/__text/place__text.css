@@ -1,0 +1,13 @@
+.place__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 26px;
+    width: 100%;
+  }
+  
+  @media (max-width: 769px) {
+    .place__text {
+      row-gap: 25px;
+    }
+  }

@@ -1,0 +1,12 @@
+.place__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  
+  @media (max-width: 321px) {
+    .place__link {
+      max-width: 288px;
+    }
+  }
+  

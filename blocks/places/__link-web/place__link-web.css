@@ -1,0 +1,21 @@
+.place__link-web {
+    margin: 12px auto 0 0;
+    max-width: 456px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  @media (max-width: 321px) {
+    .place__link-web {
+      margin-left: 16px;
+    }
+  }
+  
+  .place__link-web:hover {
+    opacity: 0.8;
+  }
