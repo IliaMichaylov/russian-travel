@@ -6,6 +6,16 @@
     line-height: 100px;
     text-align: center;
     color: #ffffff;
+    border: 100%;
+  }
+
+  @media (max-width: 485px) {
+    .lead__title {
+      margin: 0 auto 0;
+      max-width: 288px;
+      font-size: 42px;
+      line-height: 44px;
+    }
   }
   
   @media (max-width: 321px) {

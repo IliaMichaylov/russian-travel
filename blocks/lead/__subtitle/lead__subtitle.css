@@ -15,6 +15,7 @@
   @media (max-width: 1025px) {
     .lead__subtitle {
       padding-left: 48px;
+      padding-right: 48px;
     }
     
   }

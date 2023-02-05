@@ -5,12 +5,7 @@
     justify-content: center;
     margin-top: 56px;
     width: 100%;
+    box-sizing: border-box;
   }
   
  
-  @media (max-width: 321px) {
-    .lead {
-      margin: 48px auto 0 auto;
-      max-width: 320px;
-    }
-  }
