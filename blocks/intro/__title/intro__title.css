@@ -1,27 +1,19 @@
 .intro__title {
-    margin: 0 auto 0;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    color: #ffffff;
-    width: 100%;
-    box-sizing: border-box;
+  margin: 0 auto 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 321px) {
+  .intro__title {
+    margin-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 32px;
+    line-height: 35px;
   }
-  
-  @media (max-width: 485px) {
-    .intro__title {
-      
-      
-    }
-  }
-  
-  @media (max-width: 321px) {
-    .intro__title {
-      margin-top: 64px;
-      padding-left: 16px;
-      padding-right: 16px;
-      font-size: 32px;
-      line-height: 35px;
-    }
-  }
-  
+}

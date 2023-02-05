@@ -1,18 +1,46 @@
 .cover__title {
-    position: relative;
-    margin: 245px auto 0;
-    max-width: 560px;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    text-align: center;
-    color: #ffffff;
+  position: relative;
+  margin: 245px auto 0;
+  width: 100%;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #ffffff;
+  box-sizing: border-box;
+  padding-left: 312px;
+  padding-right: 312px;
+}
+
+@media (max-width: 1025px) {
+  .cover__title {
+    margin-top: 195px;
+    padding-left: 232px;
+    padding-right: 232px;
   }
+}
+
+@media (max-width: 769px) {
+  .cover__title {
+    margin-top: 115px;
+    padding-left: 104px;
+    padding-right: 104px;
+  }
+}
+
+@media (max-width: 485px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+
+@media (max-width: 321px) {
+  .cover__title {
+    margin-top: 33px;
+    padding-left: 16px;
+    padding-right: 16px;
   
-  @media (max-width: 321px) {
-    .cover__title {
-      margin: 33px auto 0;
-      font-size: 32px;
-      line-height: 35px;
-    }
   }
+}
