@@ -8,7 +8,6 @@
 
 @media (max-width:1025px) {
   .cover {
-    width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
@@ -22,6 +21,6 @@
 
 @media (max-width:321px) {
   .cover {
-    margin: 66px auto 0 auto;
+    margin-top: 66px;
   }
 }

@@ -22,13 +22,13 @@
 
 @media (max-width: 769px) {
   .cover__overlay {
-    min-height: 480px;
+    max-height: 480px;
   }
 }
 
-@media (max-width: 485px) {
+@media (max-width: 486px) {
   .cover__overlay {
-    min-height: 300px;
+    max-height: 340px;
   }
 }
 
