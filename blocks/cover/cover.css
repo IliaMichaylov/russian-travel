@@ -1,9 +1,7 @@
 .cover {
-  margin-top: 92px;
-  width: 100%;
-  padding-left: 48px;
-  padding-right: 48px;
-  box-sizing: border-box;
+  position: relative;
+  min-height: 740px;
+  z-index: 1;
 }
 
 @media (max-width:1025px) {
