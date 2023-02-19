@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
   .places__text {
     row-gap: 25px;
   }

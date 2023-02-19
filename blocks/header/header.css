@@ -2,8 +2,8 @@
   padding-top: 28px;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 767px) {
   .header {
-    margin-top: 16px;
+    padding-top: 16px;
   }
 }

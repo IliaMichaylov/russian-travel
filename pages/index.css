@@ -1,4 +1,4 @@
-@import url(../Vendors/fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__menu/header__menu.css);
@@ -30,7 +30,7 @@
 @import url(../blocks/places/__img/places__img.css);
 @import url(../blocks/places/__link-web/places__link-web.css);
 @import url(../blocks/places/__link/places__link.css);
-@import url(../blocks/places/__name-link/places__name-link.css);
+@import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/places/__text/places__text.css);
@@ -39,4 +39,7 @@
 @import url(../blocks/header/__header-row/header__header-row.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/cover/__content/cover__content.css);
-@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang/_active/header__lang_active.css);
+@import url(../blocks/intro/__list-fact/intro__list-fact.css);

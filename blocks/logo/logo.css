@@ -1,13 +1,13 @@
 .logo {
-    max-width: 176px;
-    cursor: pointer;
-  }
+  max-width: 176px;
+  cursor: pointer;
+}
 
-  
-  
-  @media (max-width: 321px) {
-    .logo {
-      max-width: 142px;
-      max-height: 42px;
-    }
+
+
+@media (max-width: 767px) {
+  .logo {
+    max-width: 142px;
+
   }
+}

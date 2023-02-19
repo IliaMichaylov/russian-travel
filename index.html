@@ -6,7 +6,6 @@
     <title>Путешествие по России</title>
     <link rel="stylesheet" href="./pages/reset.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="/" />
   </head>
   <body class="page">
     <header class="header">
@@ -19,32 +18,28 @@
               alt="Логотип Россия"
           /></a>
           <ul class="header__menu">
-            <li><a href="#">Ru</a></li>
-            <li><a href="#">En</a></li>
+            <li><a class="header__lang header__lang_active" href="#">Ru</a></li>
+            <li><a class="header__lang" href="#">En</a></li>
           </ul>
         </div>
       </div>
     </header>
     <main>
       <section class="lead">
-        <div class="container">
-          <h1 class="lead__title">Путешествия по России</h1>
+        
+         <h1 class="lead__title">Путешествия по России</h1>
           <div class="lead__subtitle">
             <p>
               Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
             </p>
           </div>
-        </div>
         <div class="lead__img">
-          <img
-            src="./images/lead-polka.jpg"
-            alt="Плацкарт Вагон"
-             />
+          <img src="./images/lead-polka.jpg" alt="Плацкарт Вагон" />
         </div>
-          <p class="lead__text">ВАША ПОЛКА&nbsp;&mdash; ВЕРХНЯЯ</p>
-        
+        <p class="lead__text">ВАША ПОЛКА&nbsp;&mdash; ВЕРХНЯЯ</p>
       </section>
-      <div class="intro">
+      <section class="intro">
+        <div class="container">
         <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
         <p class="intro__text">
           По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
@@ -62,15 +57,15 @@
         </p>
         <ul class="intro__list">
           <li class="intro__list-fact">
-            Часовых поясов <span class="intro__list-count">11</span>
+            Часовых поясов <span class="intro__list-count">11&nbsp;</span>
           </li>
           <li class="intro__list-fact">
             Объектов природного наследия ЮНЕСКО
-            <span class="intro__list-count">12</span>
+            <span class="intro__list-count">12&nbsp;</span>
           </li>
           <li class="intro__list-fact">
             Объектов культурного наследия ЮНЕСКО
-            <span class="intro__list-count">16</span>
+            <span class="intro__list-count">16&nbsp;</span>
           </li>
           <li class="intro__list-fact">
             Природных заповедников <span class="intro__list-count">105</span>
@@ -79,7 +74,8 @@
             Аэропортов <span class="intro__list-count">241</span>
           </li>
         </ul>
-      </div>
+        </div>
+      </section>
       <section class="photo-grid">
         <img
           src="./images/__train.jpg"
@@ -146,7 +142,7 @@
         <div class="places__place">
           <h3 class="places__title">Куршская коса</h3>
           <div class="places__link">
-            <p class="places__name-link">URL</p>
+            <p class="places__url-heading">URL</p>
             <a href="http://park-kosa.ru" class="places__link-web"
               >park-kosa.ru</a
             >
@@ -178,7 +174,7 @@
         <div class="places__place">
           <h3 class="places__title">Кольский</h3>
           <div class="places__link">
-            <p class="places__name-link">URL</p>
+            <p class="places__url-heading">URL</p>
             <a
               href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               class="places__link-web"
@@ -212,7 +208,7 @@
         <div class="places__place">
           <h3 class="places__title">Алтай</h3>
           <div class="places__link">
-            <p class="places__name-link">URL</p>
+            <p class="places__url-heading">URL</p>
             <a
               href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ
             "
@@ -246,7 +242,7 @@
         <div class="places__place">
           <h3 class="places__title">Зимний Байкал</h3>
           <div class="places__link">
-            <p class="places__name-link">URL</p>
+            <p class="places__url-heading">URL</p>
             <a href="https://vk.com/baikalmile" class="places__link-web"
               >https://vk.com/baikalmile</a
             >
@@ -276,7 +272,7 @@
         <div class="places__place">
           <h3 class="places__title">Карелия</h3>
           <div class="places__link">
-            <p class="places__name-link">URL</p>
+            <p class="places__url-heading">URL</p>
             <a href="http://vodlozero.ru" class="places__link-web"
               >http://vodlozero.ru/</a
             >
@@ -302,61 +298,62 @@
             </p>
           </div>
         </div>
-      </section>
+       </section>
       <section class="cover">
         <div class="container">
-        <a href="https://rasp.yandex.ru" class="cover__link">
-        
+          <a href="https://rasp.yandex.ru" class="cover__overlay">
             <div class="cover__content">
-            <h2 class="cover__title">
-              До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
-            </h2>
-            <div class="cover__subtitle">
-            <p>
-              По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
-              путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.
-            </p>
+              <h2 class="cover__title">
+                До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;
+              </h2>
+              <div class="cover__subtitle">
+                <p>
+                  По&nbsp;мотивам учебной темы о&nbsp;Транссибе&nbsp;&mdash;
+                  путешествие от&nbsp;столицы до&nbsp;Байкала
+                  на&nbsp;электричках.
+                </p>
               </div>
             </div>
-            <div class="cover__overlay">
-            <div class="cover__background"></div>
-            </div>
-            
-          </div>
-        </a>
+          </a>
+        </div>
       </section>
     </main>
     <footer class="footer">
       <div class="container">
-      <nav>
-        <ul class="footer__links">
-          <li class="footer__link">
-            <a class="footer__link-web" href="https://yandex.ru/maps">Карты</a>
-          </li>
-          <li class="footer__link">
-            <a class="footer__link-web" href="https://yandex.ru/pogoda"
-              >Погода</a
-            >
-          </li>
-          <li class="footer__link">
-            <a class="footer__link-web" href="https://rasp.yandex.ru"
-              >Расписание</a
-            >
-          </li>
-          <li class="footer__link">
-            <a class="footer__link-web" href="https://calendar.yandex.ru"
-              >Календарь</a
-            >
-          </li>
-          <li class="footer__link">
-            <a class="footer__link-web" href="https://travel.yandex.ru"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <p class="footer__copyright">&copy;2020 Михайлов Илья</p>
-    </div>
+        <div class="footer__content">
+          <nav>
+            <ul class="footer__links">
+              <li class="footer__link">
+                <a class="footer__link-web" href="https://yandex.ru/maps"
+                  >Карты</a
+                >
+              </li>
+              <li class="footer__link">
+                <a class="footer__link-web" href="https://yandex.ru/pogoda"
+                  >Погода</a
+                >
+              </li>
+              <li class="footer__link">
+                <a class="footer__link-web" href="https://rasp.yandex.ru"
+                  >Расписание</a
+                >
+              </li>
+              <li class="footer__link">
+                <a class="footer__link-web" href="https://calendar.yandex.ru"
+                  >Календарь</a
+                >
+              </li>
+              <li class="footer__link">
+                <a class="footer__link-web" href="https://travel.yandex.ru"
+                  >Путешествия</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <p class="footer__copyright">&copy;2022 Михайлов Илья</p>
+        </div>
+      </div>
     </footer>
+      
   </body>
 </html>

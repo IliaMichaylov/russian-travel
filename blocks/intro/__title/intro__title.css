@@ -8,11 +8,8 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 321px) {
+@media (max-width: 767px) {
   .intro__title {
-    margin-top: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
     font-size: 32px;
     line-height: 35px;
   }
