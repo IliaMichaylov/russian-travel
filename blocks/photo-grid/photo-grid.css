@@ -9,14 +9,14 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1279px) {
   .photo-grid {
     grid-template-columns: repeat(3, auto);
     gap: 14px;
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1023px) {
   .photo-grid {
     margin-top: 88px;
     padding-left: 24px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 321px) {
+@media (max-width: 767px) {
   .photo-grid {
     margin-top: 64px;
     padding-left: 16px;
