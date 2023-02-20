@@ -8,6 +8,7 @@
     text-decoration-line: underline;
     color: #ffffff;
     width: 100%;
+    box-sizing: border-box;
   }
   
   
