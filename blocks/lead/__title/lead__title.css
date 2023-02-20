@@ -7,14 +7,6 @@
   text-align: center;
   color: #ffffff;
   box-sizing: border-box;
-
-}
-
-@media (max-width: 1279) {
-  .lead__title {
-    padding-top: 48px;
-  }
-  
 }
 
 @media (max-width: 767px) {
@@ -23,5 +15,4 @@
     font-size: 40px;
     line-height: 44px;
   }
-
 }

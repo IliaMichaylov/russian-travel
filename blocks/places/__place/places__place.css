@@ -17,7 +17,7 @@
 @media (max-width: 1023px) {
   .places__place {
     padding-top: 73px;
-    grid-template-columns: minmax(320px, 340px) minmax(288px, 352px);
+    grid-template-columns: minmax(340px, 320px) minmax(320px, 352px);
     gap: 48px 28px;
   }
 }
