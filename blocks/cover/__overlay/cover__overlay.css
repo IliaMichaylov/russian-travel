@@ -5,9 +5,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1184px;
-  min-height: 740px;
   text-decoration: none;
+  min-height: 740px;
 }
 
 @media (max-width: 1279px) {
