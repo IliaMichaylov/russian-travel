@@ -1,4 +1,5 @@
 .cover__title {
+  padding: 0;
   margin: 0;
   position: relative;
   margin-bottom: 32px;
@@ -11,8 +12,22 @@
   z-index: 5;
 }
 
+@media (max-width: 1279px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+
 @media (max-width: 767px) {
   .cover__title {
+    padding-top: 33px;
     margin-bottom: 16px;
     max-width: 288px;
     font-size: 32px;

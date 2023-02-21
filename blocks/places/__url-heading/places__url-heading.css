@@ -5,13 +5,10 @@
   line-height: 12px;
   color: #aaaaaa;
   letter-spacing: 2px;
+  text-transform: capitalize;
 }
 
-@media (max-width: 1279px) {
-  .places__url-heading {
-    line-height: 12px;
-  }
-}
+
 
 @media (max-width: 767px) {
   .places__url-heading {
