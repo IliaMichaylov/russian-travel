@@ -1,4 +1,9 @@
 .cover__overlay {
+  background: url(../../../images/__dmitrii-vaccinium-22833-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1184px;
   min-height: 740px;
   text-decoration: none;
 }
@@ -21,7 +26,7 @@
   }
 }
 
-.cover__overlay::before  {
+.cover__overlay::before {
   content: "";
   position: absolute;
   background: #2a2c2f;
@@ -33,7 +38,5 @@
 }
 
 .cover__overlay:hover::before {
-  
   opacity: 0.8;
-  
 }
