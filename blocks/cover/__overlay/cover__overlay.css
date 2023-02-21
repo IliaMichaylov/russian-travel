@@ -1,6 +1,7 @@
 .cover__overlay {
   position: relative;
-  background: url(../../../images/__dmitrii-vaccinium-22833-unsplash.jpg);
+  display: block;
+  background-image: url(../../../images/__dmitrii-vaccinium-22833-unsplash.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,17 +28,17 @@
   }
 }
 
-.cover__overlay::before {
+.cover__overlay::after {
   content: "";
   position: absolute;
   background: #2a2c2f;
   opacity: 0.3;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  min-height: 740px;
 }
 
-.cover__overlay:hover::before {
+.cover__overlay:hover::after {
   opacity: 0.8;
 }
