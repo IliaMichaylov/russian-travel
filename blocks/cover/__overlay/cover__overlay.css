@@ -10,6 +10,7 @@
   background-repeat: no-repeat;
   text-decoration: none;
   min-height: 740px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1279px) {

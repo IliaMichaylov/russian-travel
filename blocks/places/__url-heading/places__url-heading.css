@@ -5,10 +5,8 @@
   line-height: 12px;
   color: #aaaaaa;
   letter-spacing: 2px;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
-
-
 
 @media (max-width: 767px) {
   .places__url-heading {
